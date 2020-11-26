@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[posts resource is working correctly]]>
+    </line>
+    <line>
+      <![CDATA[Specific post resource is working correctly]]>
+    </line>
+    <line>
+      <![CDATA[New post creation worked correctly]]>
+    </line>
+    <line>
+      <![CDATA[Existing post updation worked correctly]]>
+    </line>
+    <line>
+      <![CDATA[Existing post deletion worked correctly]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5774" started-at="2020-08-19T12:37:01 IST" finished-at="2020-08-19T12:37:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5774" started-at="2020-08-19T12:37:01 IST" finished-at="2020-08-19T12:37:07 IST">
+      <class name="tests.TestNGCRUD">
+        <test-method status="PASS" signature="common()[pri:0, instance:tests.TestNGCRUD@74650e52]" name="common" is-config="true" duration-ms="609" started-at="2020-08-19T12:37:01 IST" finished-at="2020-08-19T12:37:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- common -->
+        <test-method status="PASS" signature="getPosts()[pri:1, instance:tests.TestNGCRUD@74650e52]" name="getPosts" duration-ms="1792" started-at="2020-08-19T12:37:01 IST" finished-at="2020-08-19T12:37:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[posts resource is working correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getPosts -->
+        <test-method status="PASS" signature="getSpecifiedPost()[pri:2, instance:tests.TestNGCRUD@74650e52]" name="getSpecifiedPost" duration-ms="764" started-at="2020-08-19T12:37:03 IST" finished-at="2020-08-19T12:37:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Specific post resource is working correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSpecifiedPost -->
+        <test-method status="PASS" signature="common()[pri:0, instance:tests.TestNGCRUD@74650e52]" name="common" is-config="true" duration-ms="0" started-at="2020-08-19T12:37:03 IST" finished-at="2020-08-19T12:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- common -->
+        <test-method status="PASS" signature="common()[pri:0, instance:tests.TestNGCRUD@74650e52]" name="common" is-config="true" duration-ms="1" started-at="2020-08-19T12:37:04 IST" finished-at="2020-08-19T12:37:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- common -->
+        <test-method status="PASS" signature="createpost()[pri:3, instance:tests.TestNGCRUD@74650e52]" name="createpost" duration-ms="849" started-at="2020-08-19T12:37:04 IST" finished-at="2020-08-19T12:37:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[New post creation worked correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createpost -->
+        <test-method status="PASS" signature="common()[pri:0, instance:tests.TestNGCRUD@74650e52]" name="common" is-config="true" duration-ms="4" started-at="2020-08-19T12:37:05 IST" finished-at="2020-08-19T12:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- common -->
+        <test-method status="PASS" signature="updatepost()[pri:4, instance:tests.TestNGCRUD@74650e52]" name="updatepost" duration-ms="864" started-at="2020-08-19T12:37:05 IST" depends-on-methods="tests.TestNGCRUD.createpost" finished-at="2020-08-19T12:37:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Existing post updation worked correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updatepost -->
+        <test-method status="PASS" signature="common()[pri:0, instance:tests.TestNGCRUD@74650e52]" name="common" is-config="true" duration-ms="1" started-at="2020-08-19T12:37:06 IST" finished-at="2020-08-19T12:37:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- common -->
+        <test-method status="PASS" signature="deletepost()[pri:5, instance:tests.TestNGCRUD@74650e52]" name="deletepost" duration-ms="822" started-at="2020-08-19T12:37:06 IST" depends-on-methods="tests.TestNGCRUD.updatepost, tests.TestNGCRUD.createpost" finished-at="2020-08-19T12:37:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Existing post deletion worked correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deletepost -->
+      </class> <!-- tests.TestNGCRUD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
